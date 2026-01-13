@@ -11,8 +11,10 @@
 def calculate_area_triangle(base, height):
     return (base * height) / 2
 
+print('Exercise 1:', calculate_area_triangle(10, 5))
 print('Exercise 1:', calculate_area_triangle(7, 3))
 
+print("#########################################")
 
 # Exercise 2: Calculate Simple Interest
 #
@@ -29,7 +31,9 @@ def simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
 
 print('Exercise 2:', simple_interest(1000, 5, 2))
+print('Exercise 2:', simple_interest(1500, 3.5, 5))
 
+print("#########################################")
 
 # Exercise 3: Apply a Discount
 #
@@ -46,7 +50,9 @@ def apply_discount(product_price, discount_percentage):
     return product_price - (product_price * (discount_percentage / 100))
 
 print('Exercise 3:', apply_discount(100, 25))
+print('Exercise 3:', apply_discount(80, 20))
 
+print("#########################################")
 
 # Exercise 4: Convert Temperature
 #
@@ -73,6 +79,7 @@ def convert_temperature(temperature, unit):
 print('Exercise 4: Convert 0°C to Fahrenheit:', convert_temperature(0, 'C'))
 print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
 
+print("#########################################")
 
 # Exercise 5: Sum to N
 #
@@ -90,7 +97,9 @@ def sum_to(n):
 
 
 print('Exercise 5:', sum_to(6))
+print('Exercise 5:', sum_to(10))
 
+print("#########################################")
 
 # Exercise 6: Find the Largest Number
 #
@@ -106,7 +115,9 @@ def largest(n1, n2, n3):
     return max(n1, n2, n3)
 
 print('Exercise 6:', largest(1, 2, 3))
+print('Exercise 6:', largest(10, 4, 2))
 
+print("#########################################")
 
 # Exercise 7: Calculate a Tip
 #
@@ -123,6 +134,7 @@ def calculate_tip(bill_amount, tip_percentage):
 
 print('Exercise 7:', calculate_tip(50, 20))
 
+print("#########################################")
 
 # Exercise 8: Calculate Product of Numbers
 #
@@ -145,6 +157,7 @@ def product(*args) :
 print('Exercise 8:', product(-1, 4))
 print('Exercise 8:', product(2, 5, 5))
 
+print("#########################################")
 
 # Exercise 9: Basic Calculator
 #
